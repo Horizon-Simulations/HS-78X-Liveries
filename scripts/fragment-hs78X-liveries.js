@@ -21,7 +21,7 @@ const execute = async () => {
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_SVA2'
             }, {
                 name: 'Vietnam_Airlines',
-                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_HVN'
+                sourceDir: './SimObjects/Airplanes/HorzionSim_B787_10_HVN'
             }]
         });
         console.log(result);
