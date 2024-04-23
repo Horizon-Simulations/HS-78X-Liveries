@@ -11,6 +11,9 @@ const execute = async () => {
                 name: 'Horizon_Simulations_House_Livery',
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_HR_SIM'
             }, {
+                name: 'All_Nippon_Airways',
+                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_ANA'
+            }, {
                 name: 'British_Airways',
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_BAW'
             }, {
