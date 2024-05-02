@@ -8,23 +8,35 @@ const execute = async () => {
             baseDir: './hs-78X-liveries/out/horizonsim-aircraft-787-10-livery-package',
             outDir: './hs-78X-liveries/out/build-modules',
             modules: [{
-                name: 'Horizon_Simulations_House_Livery',
-                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_HR_SIM'
-            }, {
                 name: 'All_Nippon_Airways',
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_ANA'
             }, {
                 name: 'British_Airways',
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_BAW'
             }, {
-                name: 'Saudia_1',
+                name: 'Etihad',
+                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_ETD'
+            }, {
+                name: 'EVA_Air',
+                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_EVA'
+            }, {
+                name: 'Vietnam_Airlines',
+                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_HVN'
+            }, {
+                name: 'KLM_Royal_Dutch_Airlines',
+                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_KLM'
+            }, {
+                name: 'Singapore_Airlines',
+                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_SIA'
+            }, {
+                name: 'Saudia',
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_SVA'
             }, {
                 name: 'Saudia_2',
                 sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_SVA2'
             }, {
-                name: 'Vietnam_Airlines',
-                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_HVN'
+                name: 'United',
+                sourceDir: './SimObjects/Airplanes/HorizonSim_B787_10_UAL'
             }]
         });
         console.log(result);
